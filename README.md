@@ -24,7 +24,7 @@ Click [here](http://cyberdynecc.github.io/Thermos/install)
 
 ## Downloads
 You can download old pre-built packages from [Here](https://github.com/CyberdyneCC/Thermos/releases).
-New releases will be [Here] (https://github.com/Timardo/Thermos/releases).
+New releases will be [Here](https://github.com/Timardo/Thermos/releases).
 
 **Thermos is still in beta and you may encounter issues in using it with your server. You have been warned!**
 
