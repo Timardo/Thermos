@@ -25,7 +25,6 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-//        classpath files('FGS.jar')
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
     }
 }
@@ -80,14 +79,10 @@ ext.buildInfoCached = null;
 
 def buildInfo(String key) {
     if (!buildInfoCached) {
-        if (project.hasProperty('officialBuild')) {
-            buildInfoCached = new JsonSlurper().parse(new URL("http://i.yive.pw/thermos/version"))
-        } else {
-            buildInfoCached = [
-                    nextBuildNumber: 'UNOFFICIAL',
-                    version        : 'NONE'
-            ]
-        }
+        buildInfoCached = [
+                nextBuildNumber: 'UNOFFICIAL',
+                version        : 'NONE'
+        ]
     }
     return key ? buildInfoCached[key] : buildInfoCached;
 }

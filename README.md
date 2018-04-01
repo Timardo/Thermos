@@ -1,17 +1,12 @@
-# THERMOS IS NO LONGER BEING DEVELOPED. IF YOU MAKE AN ISSUE, IT WILL NOT BE RESOLVED AND WILL JUST BE CLOSED.
-
 # Thermos (Те́рмос)(TH啦)
 
-[Русский](https://cyberdynecc.github.io/Thermos/#googtrans(en|ru)) [Deutsch](https://cyberdynecc.github.io/Thermos/#googtrans(en|de)) [Français](https://cyberdynecc.github.io/Thermos/#googtrans(en|fr)) [Español](https://cyberdynecc.github.io/Thermos/#googtrans(en|es)) [Português](https://cyberdynecc.github.io/Thermos/#googtrans(en|pt)) [Nederlands](https://cyberdynecc.github.io/Thermos/#googtrans(en|nl)) [汉语](https://cyberdynecc.github.io/Thermos/#googtrans(en|jp)) [日本語](https://cyberdynecc.github.io/Thermos/#googtrans(en|zh)) [조선말](https://cyberdynecc.github.io/Thermos/#googtrans(en|ko)) [हिन्दी](https://cyberdynecc.github.io/Thermos/#googtrans(en|hi))
-
 ![Thermos](thermos_icon.png)
-![Graph](http://i.mcstats.org/Thermos/Global+Statistics@2x.borderless.png)
 
-[![Build Status](https://travis-ci.org/CyberdyneCC/Thermos.svg?branch=master)](https://travis-ci.org/CyberdyneCC/Thermos)
+[![Build Status](https://travis-ci.org/Timardo/Thermos.svg?branch=master)](https://travis-ci.org/Timardo/Thermos)
 ![Minecraft Forge v10.13.4.1614][forge]
 ![Minecraft v1.7.10][mc]
 ![Java JDK v1.8][java]
-![Spigot 1.7.10 Snapshot ][spigot]
+![Spigot 1.7.10 Snapshot][spigot]
 
 ### What's Thermos?
 Thermos is a fork of KCauldron, a craftbukkit forge server for Minecraft 1.7.10. After periods of inactivity on KCauldron's GitLab concerning major issues, Thermos was created to allow active members of the Minecraft coding community to optimize it and provide fixes in a timely manner.
@@ -24,12 +19,12 @@ Advantages over KCauldron:
 + Many patches that KCauldron didn't get from Spigot
 + Dupe glitch fixes
 
-
 ## Installation
 Click [here](http://cyberdynecc.github.io/Thermos/install)
 
 ## Downloads
-You can download the pre-built packages from [here](https://github.com/CyberdyneCC/Thermos/releases). 
+You can download old pre-built packages from [Here](https://github.com/CyberdyneCC/Thermos/releases).
+New releases will be [Here] (https://github.com/Timardo/Thermos/releases).
 
 **Thermos is still in beta and you may encounter issues in using it with your server. You have been warned!**
 
@@ -50,23 +45,20 @@ You can pledge to support Robotia and his work through a monthly [Patreon](https
 
 Please read the [guide](https://github.com/CyberdyneCC/Thermos/blob/master/CONTRIBUTING.md) on how to contribute - Thermos always needs improvements :smile: 
 
-
-
-
 ## Build Requirements
 * Java 8u101 JDK or higher
 * `JAVA_HOME` defined on your OS
 
-## Building CyberdyneCC/Thermos
+## Building Thermos
 * Checkout project
   * You can use IDE or clone from console:
-  `git clone https://github.com/CyberdyneCC/Thermos.git`
+  `git clone https://github.com/Timardo/Thermos.git`
 * Setup
   * Auto: `setup.sh`
   * Manual:
   `git submodule update --init --recursive`
 * Build
-  * This process downloads minecraft and apply patches
+  * This process downloads minecraft and applies patches
   * If you have gradle integration in IDE - you can still use gui
   * Auto: `build.sh`
   * Manual:
@@ -102,8 +94,12 @@ All builds will be in `build/distributions`
 
 ✔ SkinsRestorer: Latest working version is 10.4.4
 
-[Fixed]: http://gogs.tcpr.ca/TCPR/Fixes "Fixed"
+[Fixed]: https://yivesmirror.com/files/fixes/fixes.zip "Fixed"
 [forge]: https://img.shields.io/badge/Minecraft%20Forge-v10.13.4.1614-green.svg "Minecraft Forge v10.13.4.1614"
 [mc]: https://img.shields.io/badge/Minecraft-v1.7.10-green.svg "Minecraft 1.7.10"
 [java]: https://img.shields.io/badge/Java%20JDK-v1.8-blue.svg "Java JDK 8"
 [spigot]: https://img.shields.io/badge/Spigot-v1.7.10--R0.1--SNAPSHOT-lightgrey.svg "Spigot R0.1 Snapshot"
+
+## Known bugs.
+
+⚫ If you find any, open an issue

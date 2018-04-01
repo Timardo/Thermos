@@ -1,14 +1,10 @@
 !.gitignore
-
-# eclipse
 /eclipse
-
-# idea
-.idea
-*.iml
-
-# gradle
-build
-.gradle
-
+/build
+/.gradle
+/buildSrc
+.project
+*.rej
 *.DS_Store
+.idea
+*.im
