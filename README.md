@@ -8,7 +8,7 @@
 ![Java JDK v1.8][java]
 ![Spigot 1.7.10 Snapshot][spigot]
 
-### What's Thermos?
+## What's Thermos?
 Thermos is a fork of KCauldron, a craftbukkit forge server for Minecraft 1.7.10. After periods of inactivity on KCauldron's GitLab concerning major issues, Thermos was created to allow active members of the Minecraft coding community to optimize it and provide fixes in a timely manner.
 
 We hope to eliminate all issues with craftbukkit forge servers. In the end, we envision a seamless, low lag Thermos experience.
@@ -30,16 +30,13 @@ New releases will be [Here](https://github.com/Timardo/Thermos/releases).
 
 P.S. **PLEASE** look at the release notes before downloading! :smile:
 
-##Installing WarmRoast
-[Tutorial Video](https://youtu.be/c0ffjooX7Jw)
-
 ## Chat
 
 Feel free to drop in on the CyberdyneCC Discord chat [here](https://discord.gg/0yZaOwSQocQHebex)
 
 ## Donate/Support
 
-You can pledge to support Robotia and his work through a monthly [Patreon](https://www.patreon.com/robotia) donation or a one-time [PayPal](http://paypal.me/robotia) donation.
+You can pledge to support Robotia and his work through a monthly [Patreon](https://www.patreon.com/robotia) donation or a one-time [PayPal](http://paypal.me/robotia) donation. Without him, there won't be Thermos!
 
 ## Contributing
 
@@ -72,7 +69,7 @@ All builds will be in `build/distributions`
 * Re apply patches & build binaries
   * `./gradlew clean setupCauldron jar`
 
-## Known Caveats, use provided fixes at your own risk.
+## Known Caveats, use provided fixes at your own risk
 
 ✔ Aether II: isDonor function can lock up servers. [Fixed]
 
