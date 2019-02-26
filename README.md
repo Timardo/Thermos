@@ -99,4 +99,7 @@ All builds will be in `build/distributions`
 
 ## Known bugs.
 
-⚫ If you find any, open an issue
+-CPFix plugin deletes all meta from an item picked up from the ground.
+-TragicMC dimensions are throwing timeout exceptions due to long loading time
+
+⚫ If you find more, open an issue

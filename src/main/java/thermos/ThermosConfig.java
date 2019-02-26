@@ -7,6 +7,7 @@ import net.minecraftforge.cauldron.configuration.BoolSetting;
 import net.minecraftforge.cauldron.configuration.ConfigBase;
 import net.minecraftforge.cauldron.configuration.Setting;
 import net.minecraftforge.cauldron.configuration.StringSetting;
+import net.minecraftforge.cauldron.configuration.IntSetting;
 
 public class ThermosConfig extends ConfigBase {
     public BoolSetting commandEnable = new BoolSetting(this, "command.enable", true, "Enable Thermos command");
@@ -19,6 +20,8 @@ public class ThermosConfig extends ConfigBase {
         
     public BoolSetting commonAllowNetherPortal = new BoolSetting(this, "common.allowNetherPortalBesidesOverworld", false, "Allow nether portals in dimensions besides overworld");
     
+    public IntSetting commonDecorateTimeout = new IntSetting(this, "common.decorateTimeout", 100, "Sets the timeout to crash the server to prevent server lock while loading dimensions");
+
     public ThermosConfig() {
         super("thermos.yml", "thermos");
         register(commandEnable);
@@ -27,6 +30,7 @@ public class ThermosConfig extends ConfigBase {
         register(loggingMaterialInjection);
         register(loggingClientModList);
         register(commonAllowNetherPortal);
+        register(commonDecorateTimeout);
         register(opConsoleOnly);
         load();
     }
