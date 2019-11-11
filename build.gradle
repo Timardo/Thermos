@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'https://glairiest-walrus-3867.dataplicity.io/thermoslibs/'
+            url 'https://raw.githubusercontent.com/Timardo/Thermos/master/libraries'
         }
         maven {
             name 'forge'
@@ -46,7 +46,7 @@ repositories {
     }
     maven {
         name 'prok'
-        url 'https://glairiest-walrus-3867.dataplicity.io/thermoslibs/'
+        url 'https://raw.githubusercontent.com/Timardo/Thermos/master/libraries'
     }
     maven {
         name 'forge'
@@ -319,7 +319,7 @@ repositories {
     clear()
     maven {
         name 'prok'
-        url 'https://glairiest-walrus-3867.dataplicity.io/thermoslibs/'
+        url 'https://raw.githubusercontent.com/Timardo/Thermos/master/libraries'
     }
     maven {
         name 'forge'
